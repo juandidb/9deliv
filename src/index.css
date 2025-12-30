@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+/* Tailwind v4 */
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+/* Base app styles (mobile-first, light) */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', 'Inter', system-ui, -apple-system, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 16% 18%, rgba(15, 118, 178, 0.16), rgba(14, 165, 233, 0) 48%),
+    radial-gradient(circle at 82% 18%, rgba(249, 115, 22, 0.13), rgba(249, 115, 22, 0) 52%),
+    radial-gradient(circle at 50% 110%, rgba(14, 165, 233, 0.08), rgba(248, 250, 252, 0) 62%),
+    radial-gradient(circle at 24% 28%, #f8fafc 0, #e2e8f0 35%, rgba(226, 232, 240, 0.4) 70%, #f8fafc 90%);
+  color: #0b1224;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.98) 46%, #f8fafc 100%);
+}
+
+#root::before {
+  content: "";
+  position: fixed;
+  inset: -20vh -20vw;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 10% 18%, rgba(12, 74, 110, 0.14), rgba(12, 74, 110, 0) 55%),
+    radial-gradient(circle at 90% 20%, rgba(249, 115, 22, 0.18), rgba(249, 115, 22, 0) 58%),
+    radial-gradient(circle at 55% 88%, rgba(16, 185, 129, 0.12), rgba(16, 185, 129, 0) 60%);
+  filter: blur(28px);
+}
+
+#root > * {
+  position: relative;
+  z-index: 1;
+}
+
+@layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .surface {
+    @apply rounded-3xl border border-white/50 bg-transparent p-4 backdrop-blur-xl;
+    box-shadow:
+      0 18px 70px rgba(15, 23, 42, 0.10),
+      inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  }
+
+  .card {
+    @apply rounded-2xl border border-white/40 bg-white/50 backdrop-blur-xl;
+    box-shadow:
+      0 10px 30px rgba(15, 23, 42, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  }
+
+  .label {
+    @apply block text-xs font-medium text-slate-600;
+  }
+
+  .input {
+    @apply w-full rounded-2xl border-white/40 bg-white/35 text-sm placeholder:text-slate-400;
+    @apply focus:border-white/60 focus:ring-2 focus:ring-slate-900/10;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-3 py-2 text-sm font-semibold transition-colors disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply bg-slate-900 text-white;
+  }
+
+  .btn-ghost {
+    @apply border border-white/40 bg-white/35 text-slate-800 backdrop-blur-xl;
+    @apply hover:bg-white/45;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full border border-white/35 bg-white/30 px-3 py-1.5 text-xs font-semibold text-slate-700 backdrop-blur-xl;
+    @apply hover:bg-white/40;
+  }
+
+  .chip-active {
+    @apply border-transparent bg-slate-900 text-white;
+  }
+}

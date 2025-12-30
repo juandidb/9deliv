@@ -1,0 +1,308 @@
+[
+  {
+    "id": "foodMitre",
+    "name": "Food Mitre",
+    "categories": ["Pizzas", "Hamburguesas", "Ensaladas", "Bebidas"],
+    "phone": "+5492317523663",
+    "address": "Bartolomé Mitre 1814",
+    "hours": "11:00-14:00  -  19:00-01:00",
+
+    "menu": [
+      {
+        "id": "p1",
+        "name": "Muzzarella",
+        "price": 1200,
+        "description": "Clásica, con salsa y mozzarella.",
+        "available": true,
+        "category": "Pizzas",
+        "image": "/assets/restaurants/foodMitre/menu/muzzarella.svg"
+      },
+      {
+        "id": "p2",
+        "name": "Napolitana",
+        "price": 1450,
+        "description": "Tomate, ajo y un toque de orégano.",
+        "available": true,
+        "category": "Pizzas",
+        "image": "/assets/restaurants/rest1/menu/napolitana.svg"
+      },
+      {
+        "id": "p3",
+        "name": "Fugazzetta",
+        "price": 1600,
+        "description": "Doble queso y cebolla.",
+        "available": false,
+        "category": "Pizzas",
+        "image": "/assets/restaurants/rest1/menu/fugazzetta.svg"
+      }
+    ],
+    "image": "/assets/restaurants/foodMitre/cover.jpg"
+  },
+  {
+    "id": "manolo",
+    "name": "Manolo",
+    "categories": ["Hamburguesas", "Pizzas", "Papas", "Bebidas"],
+    "phone": "+5493511112233",
+    "address": "Av. Principal 456",
+    "hours": "19:00-01:00",
+
+    "menu": [
+      {
+        "id": "b1",
+        "name": "Cheeseburger",
+        "price": 1800,
+        "description": "Carne, cheddar y salsa especial.",
+        "available": true,
+        "category": "Hamburguesas",
+        "image": "/assets/restaurants/rest2/menu/cheeseburger.svg"
+      },
+      {
+        "id": "b2",
+        "name": "Papas Fritas",
+        "price": 900,
+        "description": "Crocantes y calentitas.",
+        "available": true,
+        "category": "Papas",
+        "image": "/assets/restaurants/rest2/menu/papas.svg"
+      },
+      {
+        "id": "b3",
+        "name": "Coca 500ml",
+        "price": 450,
+        "description": "Bebida fría.",
+        "available": true,
+        "category": "Bebidas",
+        "image": "/assets/restaurants/rest2/menu/coca.svg"
+      }
+    ],
+    "image": "/assets/restaurants/manolo/cover.jpg"
+  },
+  {
+    "id": "torremolinos",
+    "name": "Torremolinos",
+    "categories": ["Ensaladas", "Bowls", "Wraps", "Bebidas"],
+    "phone": "+5493519998877",
+    "address": "Av. Vedia 800",
+    "hours": "07:00-00:00",
+
+    "menu": [
+      {
+        "id": "e1",
+        "name": "Ensalada César",
+        "price": 1550,
+        "description": "Pollo, croutons y aderezo césar.",
+        "available": true,
+        "category": "Ensaladas",
+        "image": "/assets/restaurants/torremolinos/menu/cesar.svg"
+      },
+      {
+        "id": "e2",
+        "name": "Bowl Veggie",
+        "price": 1650,
+        "description": "Legumbres, vegetales y semillas.",
+        "available": true,
+        "category": "Bowls",
+        "image": "/assets/restaurants/rest3/menu/bowl-veggie.svg"
+      }
+    ],
+    "image": "/assets/restaurants/torremolinos/cover.jpg"
+  },
+  {
+    "id": "laEsquina",
+    "name": "La Esquina (Milanesas & Pastas)",
+    "categories": ["Milanesas", "Pastas", "Bebidas", "Postres"],
+    "phone": "+5491122334455",
+    "address": "San Martín 220",
+    "hours": "12:00-15:00  -  19:30-00:30",
+
+    "menu": [
+      {
+        "id": "le1",
+        "name": "Milanesa Clásica",
+        "price": 6900,
+        "description": "Con guarnición a elección (papas o ensalada).",
+        "available": true,
+        "category": "Milanesas",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "le2",
+        "name": "Milanesa Napolitana",
+        "price": 7900,
+        "description": "Jamón, queso y salsa de tomate.",
+        "available": true,
+        "category": "Milanesas",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "le3",
+        "name": "Tallarines con Bolognesa",
+        "price": 6400,
+        "description": "Pasta casera con salsa bolognesa.",
+        "available": true,
+        "category": "Pastas",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "le4",
+        "name": "Ravioles de Ricota",
+        "price": 7200,
+        "description": "Con salsa fileto o crema.",
+        "available": true,
+        "category": "Pastas",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "le5",
+        "name": "Flan Casero",
+        "price": 2900,
+        "description": "Con dulce de leche o crema.",
+        "available": true,
+        "category": "Postres",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "le6",
+        "name": "Agua con gas 500ml",
+        "price": 1500,
+        "description": "Bebida fría.",
+        "available": true,
+        "category": "Bebidas",
+        "image": "/assets/menu/placeholder.svg"
+      }
+    ],
+    "image": "/assets/rest1.jpg"
+  },
+  {
+    "id": "tacoLoco",
+    "name": "Taco Loco",
+    "categories": ["Tacos", "Burritos", "Bebidas", "Postres"],
+    "phone": "+5491166778899",
+    "address": "Av. Libertador 1010",
+    "hours": "18:30-02:00",
+
+    "menu": [
+      {
+        "id": "tl1",
+        "name": "Taco de Carne",
+        "price": 3100,
+        "description": "Carne, cebolla morada, cilantro y lima.",
+        "available": true,
+        "category": "Tacos",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "tl2",
+        "name": "Taco Veggie",
+        "price": 2900,
+        "description": "Vegetales salteados y guacamole.",
+        "available": true,
+        "category": "Tacos",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "tl3",
+        "name": "Burrito Pollo",
+        "price": 5900,
+        "description": "Pollo, arroz, porotos y pico de gallo.",
+        "available": true,
+        "category": "Burritos",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "tl4",
+        "name": "Burrito Carne",
+        "price": 6400,
+        "description": "Carne, arroz, porotos y queso.",
+        "available": true,
+        "category": "Burritos",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "tl5",
+        "name": "Limonada",
+        "price": 2400,
+        "description": "Limonada fresca.",
+        "available": true,
+        "category": "Bebidas",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "tl6",
+        "name": "Churros con Chocolate",
+        "price": 3600,
+        "description": "Porción con salsa de chocolate.",
+        "available": true,
+        "category": "Postres",
+        "image": "/assets/menu/placeholder.svg"
+      }
+    ],
+    "image": "/assets/rest2.jpg"
+  },
+  {
+    "id": "greenCorner",
+    "name": "Green Corner",
+    "categories": ["Ensaladas", "Wraps", "Sandwiches", "Bebidas"],
+    "phone": "+5491133445566",
+    "address": "Belgrano 980",
+    "hours": "10:30-23:30",
+
+    "menu": [
+      {
+        "id": "gc1",
+        "name": "Ensalada Power",
+        "price": 5200,
+        "description": "Mix verdes, pollo, palta y semillas.",
+        "available": true,
+        "category": "Ensaladas",
+        "image": "/assets/menu/placeholder.svg"
+      },
+      {
+        "id": "gc2",
+        "name": "Ensalada Veggie",
+        "price": 4900,
+        "description": "Vegetales frescos, legumbres y aderezo.",
+        "available": true,
+        "category": "Ensaladas",
+        "image": "/assets/demo/menu/placeholder.png"
+      },
+      {
+        "id": "gc3",
+        "name": "Wrap de Pollo",
+        "price": 5600,
+        "description": "Pollo, vegetales y salsa suave.",
+        "available": true,
+        "category": "Wraps",
+        "image": "/assets/demo/menu/placeholder.png"
+      },
+      {
+        "id": "gc4",
+        "name": "Wrap Veggie",
+        "price": 5400,
+        "description": "Hummus, vegetales y hojas verdes.",
+        "available": true,
+        "category": "Wraps",
+        "image": "/assets/demo/menu/placeholder.png"
+      },
+      {
+        "id": "gc5",
+        "name": "Sanguche de Lomito",
+        "price": 6800,
+        "description": "Lomito, tomate, lechuga y mayonesa.",
+        "available": true,
+        "category": "Sandwiches",
+        "image": "/assets/demo/menu/placeholder.png"
+      },
+      {
+        "id": "gc6",
+        "name": "Jugo Natural",
+        "price": 2500,
+        "description": "Naranja o mix.",
+        "available": true,
+        "category": "Bebidas",
+        "image": "/assets/demo/menu/placeholder.png"
+      }
+    ],
+    "image": "/assets/rest3.jpg"
+  }
+]
